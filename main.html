@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,700;0,900;1,300;1,400;1,600;1,900&display=swap');
+    </style>
+    <title>Non-fungible token</title>
+    <link rel="stylesheet" media='(max-width: 850px)' href="style.css">
+    <link rel="shortcut icon" href="weblogo.png" type="image/x-icon" style="width: 16px; height: 16px;">
+</head>
+
+<body>
+    <div class="background" id="bcgrnd"></div>
+    <div class="content">
+        <div class="header">
+            <div class="logo"><img src="logo.svg"></div>
+            <div class="credits" onclick="credits()">
+                <div class="buttontext">Credits</div>
+            </div>
+        </div>
+        <div class="video"><video src="video.mp4" controls></video></div>
+        <div class="creditsinfo" id="creditsinfo">
+            <div class="creditsclose" onclick="credits()">
+                <div class="line l1"></div>
+                <div class="line l2"></div>
+            </div>
+            <div class="credit">
+                <div class="creditimg"><img src="wikipedia.svg"></div>
+                <div class="credilkink"><a href="https://en.wikipedia.org/wiki/Non-fungible_token">Non-fungible
+                        token</a></div>
+            </div>
+            <div class="credit">
+                <div class="creditimg"><img src="youtube.svg"></div>
+                <div class="credilkink"><a
+                        href="https://www.youtube.com/watch?v=2QcBJQmYfro&t=44s&ab_channel=Slance">What are NFTs</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="maintopic">
+            What are
+            <div class="gradienttext">
+                &nbsp;NFTs&nbsp;
+            </div>
+            ?
+        </div>
+        <div class="infoblock">
+            <div class="topic">The meaning of NFT</div>
+            <div class="info">A non-fungible token (NFT) is a financial security consisting of digital data stored in a
+                blockchain, a form of distributed ledger. The ownership of an NFT is recorded in the blockchain, and can
+                be transferred by the owner, allowing NFTs to be sold and traded. NFTs typically contain references to
+                digital files such as photos, videos, and audio.</div>
+        </div>
+        <div class="consAndProsBlock">
+            <div class="prosAndCons">
+                <div class="prosAndConsTopic">
+                    <div class="prosAndConsImg"><img src="plus.svg"></div>
+                    <div class="prosAndConsName">&nbsp;Pros</div>
+                </div>
+                <div class="prosAndConsItem">
+                    <div class="dot">•&nbsp;</div>Anyone can invest in NFTs
+                </div>
+                <div class="prosAndConsItem">
+                    <div class="dot">•&nbsp;</div> NFT ownership is secured by a blockchain
+                </div>
+                <div class="prosAndConsItem">
+                    <div class="dot">•&nbsp;</div> Opportunity to learn more about blockchain technology
+                </div>
+            </div>
+            <div class="prosAndCons">
+                <div class="prosAndConsTopic">
+                    <div class="prosAndConsImg"><img src="minus.svg"></div>
+                    <div class="prosAndConsName">&nbsp;Cons</div>
+                </div>
+                <div class="prosAndConsItem">
+                    <div class="dot">•&nbsp;</div> NFTs are not an asset class
+                </div>
+                <div class="prosAndConsItem">
+                    <div class="dot">•&nbsp;</div> NFT generation is highly energy intensive
+                </div>
+                <div class="prosAndConsItem">
+                    <div class="dot">•&nbsp;</div> May need to own Ether (ETH)
+                </div>
+
+            </div>
+        </div>
+        <div class="infoblock2">
+            <div class="topic2 ">Great <div class="gradienttext">&nbsp;perspectives</div>
+            </div>
+            <div class="info2">The NFT market grew dramatically from 2020–2021: the trading of NFTs in 2021 increased to
+                more than $17 billion, up by 21,000% over 2020's total of $82 million.</div>
+            <div class="animation2">
+                <div class="stats">
+                    <div class="stat s1"></div>
+                    <div class="stat s2"></div>
+                    <div class="stat s3"></div>
+                    <div class="stat s4"></div>
+                    <div class="stat s5"></div>
+                </div>
+                <div class="statsBottom"></div>
+            </div>
+        </div>
+        <div class="tabletblock">
+            <div>
+                <div class="infoblock3">
+                    <div class="topic2">Other uses</div>
+                    <div class="info tablet">In 2019, Nike patented a system called CryptoKicks that would use NFTs to
+                        verify the authenticity of physical sneakers and would give a virtual version of the shoe to the
+                        customer.
+                        Event tickets have been suggested for sale as NFTs. This would enable event organizers or
+                        performers to garner royalties on resales.NFTs can represent in-game assets, such as digital
+                        plots of land. It could be controlled "by the user" instead of the
+                        game developer if they can be traded on third-party marketplaces without permission from the
+                        game developer. </div>
+                </div>
+            </div>
+            <div class="infoblock4">
+                <div class="topic2">Use of the<div class="gradienttext">&nbsp;ethereum</div>
+                </div>
+                <div class="info tablet">NFTs are compatible with anything built using Ethereum. An NFT ticket for an
+                    event can be traded on every Ethereum marketplace, for an entirely different NFT. You could trade a
+                    piece of art for a ticket!</div>
+                <div class="animation3">
+                    <div class="insideCircle frst"></div>
+                    <div class="insideCircle scnd"></div>
+                    <img src="ethereum.svg">
+                    <span class="element triangle"></span>
+                    <span class="element square"></span>
+                    <span class="element hexagon"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+    <script>
+        function credits() {
+            document.getElementById("creditsinfo").classList.toggle('active');
+        }
+
+    </script>
+</body>
+
+</html>
